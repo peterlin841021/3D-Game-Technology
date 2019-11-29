@@ -1,0 +1,72 @@
+Film "image"
+# for orthographic vs perspective comparisons:
+	"integer xresolution" [800] "integer yresolution" [800]
+	"string filename" "sibenik-whitted.png"
+
+Sampler "integer pixelsamples" [16]
+
+# persp & ortho
+LookAt 0 3.5 0.0635 4.3 0.6 0 0 1 0 
+
+Camera "perspective" "fov" 80
+
+WorldBegin
+	
+	#directional light
+	AttributeBegin
+		LightSource "directional" "color" 255 255 0  Rotate 30 1 0 0
+	AttributeEnd
+
+	#shpere
+	AttributeBegin
+		Translate 4 1.2 0.6
+		Material "Kd" 0.6 0.95 0.95 "Ks" 0.1 0.1 0.1
+		Shape "sphere" "radius" 0.25
+	AttributeEnd
+
+	#shpere
+	AttributeBegin
+		Translate 4 1.2 0
+		Material "mirror"
+		Shape "sphere" "radius" 0.25
+	AttributeEnd
+
+	#cylinder
+	AttributeBegin
+		Translate 3 0.9 0
+		Rotate 90 1 0 0
+		Material "Kd" 0.8 0.1 0.1 "Ks" 0.1 0.1 0.1
+		Shape "cylinder" "radius" 0.25 "ymin" -0.5 "ymax" 0.5
+	AttributeEnd
+
+	#cone
+	AttributeBegin
+		Translate 4 1.2 -0.6
+		Material "Kd" 0.1 0.1 0.1 "Ks" 0.1 0.1 0.1
+		Shape "cone" "radius" 0.25 "height" 0.5
+	AttributeEnd
+
+	#plane
+	AttributeBegin
+		Translate 3.5 0.6 0		
+		Material "colormap" mramor6x6.png "bumpmap" bricknormal.png
+		Shape "plane" "width" 0.25 "height" 0.2
+	AttributeEnd
+
+	#plane
+	AttributeBegin
+		Translate 8.5 2 0
+		Rotate 90 0 0 1
+		Material "mirror"
+		Shape "plane" "width" 0.1 "height" 0.2
+	AttributeEnd
+
+	#obj
+	AttributeBegin
+		Translate 0 7.655 0
+		Rotate 180 0 1 0
+		Scale 50 50 50
+		Include "Sibenik.fbx"
+	AttributeEnd	
+	
+WorldEnd

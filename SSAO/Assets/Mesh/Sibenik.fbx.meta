@@ -1,0 +1,201 @@
+fileFormatVersion: 2
+guid: 673603e0ebbb14e4c825a9f73e43d02c
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Area
+    100002: Camera
+    100004: Sibenik
+    100006: //RootNode
+    100008: Sphere
+    400000: Area
+    400002: Camera
+    400004: Sibenik
+    400006: //RootNode
+    400008: Sphere
+    2000000: Camera
+    2100000: Material.007
+    2100002: sprljci
+    2100004: staklo
+    2100006: kamen_zid
+    2100008: stupovi
+    2100010: pod
+    2100012: pod_tepih
+    2100014: pod_rub
+    2100016: kamen_zid_prozor
+    2100018: zid_vani
+    2100020: kamen_zid_parapet
+    2100022: staklo_crveno
+    2100024: rozeta
+    2100026: staklo_zeleno
+    2100028: staklo_plavo
+    2100030: staklo_zuto
+    2300000: Sibenik
+    2300002: Sphere
+    3300000: Sibenik
+    3300002: Sphere
+    4300000: Sphere
+    4300002: Sibenik
+    10800000: Area
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.007
+    second: {fileID: 2100000, guid: e48769c6375fecd45a3944631dfd52f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kamen_zid
+    second: {fileID: 2100000, guid: f2a9c1243d88b544bab71c0963c1e5b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kamen_zid_parapet
+    second: {fileID: 2100000, guid: 9375ad199a93d094da241bce93718c2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kamen_zid_prozor
+    second: {fileID: 2100000, guid: 3aeb2a9943006b74d9a0fa5bd4fc3ec2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pod
+    second: {fileID: 2100000, guid: 2f04f38bc45235a419f655798c2228ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pod_rub
+    second: {fileID: 2100000, guid: 6ce463303f6301347b7879a9872cf1a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pod_tepih
+    second: {fileID: 2100000, guid: 7445d4649f9791e4b822b2e46c5a0541, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rozeta
+    second: {fileID: 2100000, guid: 715ec60c7c9e21f4d809173a3428766a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sprljci
+    second: {fileID: 2100000, guid: 2046b62e0bb5aab4fa403ff3728c3f50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: staklo
+    second: {fileID: 2100000, guid: 5b2edc1ba2a265b47ae226cf791e8a23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: staklo_crveno
+    second: {fileID: 2100000, guid: 7d4dea27d9428f84e819faaa6ecf5c5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: staklo_plavo
+    second: {fileID: 2100000, guid: af817027b3be10c44b9b5129f2d34f93, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: staklo_zeleno
+    second: {fileID: 2100000, guid: db478731b428ac54faef6fe15062c856, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: staklo_zuto
+    second: {fileID: 2100000, guid: f90e4247545bf5945885867c14463fcc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stupovi
+    second: {fileID: 2100000, guid: 0a2374a43f1a2904db68ade38a8a7325, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: zid_vani
+    second: {fileID: 2100000, guid: 8953ab274c133864bbb798545b748b19, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
